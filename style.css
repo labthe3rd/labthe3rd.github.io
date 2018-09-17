@@ -1,0 +1,124 @@
+/*  Author          Louis Bersine
+    Date Created    9/14/2018
+    Description     This is my personal sites style sheet
+*/
+
+
+
+/* Body */
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom,gray, black);
+    margin: 0%;
+}
+
+/* text */
+article {
+    width: 25%;
+    text-align: center;
+    height: 75%;
+    padding-top: 5px;
+    margin-left: 25%;
+}
+
+/* Top Banner */
+.topBanner{
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+    height: 100%;
+    width: 100%
+}
+
+
+.topBanner h1{
+    height: 100%;
+    margin: 1%;
+    padding: 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.topBanner h2{
+    height: 100%;
+    margin-top: 0%;
+    padding: 0px;
+    font-size: 10px;
+    text-align: left;
+}
+
+/* Side Bar */
+
+.menu{
+    border-style: solid;
+    border-width: 2px;
+    position: fixed;
+    right: 0;
+    float: right;
+    margin: 0%;
+    margin-top: 0%;
+    height: 100%;
+    padding: 0px;
+    width: 25%;
+    
+   overflow: hidden; /* enables scrolling when too much stuff */
+}
+.menu h1{
+    float: left;
+    margin:0%;
+    margin-left: 0%;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.menu ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+
+}
+
+.menu li {
+
+   /* display: inline; */
+   width: 100%;
+   float:right;
+   border-style: solid;
+   border-width: 1px;
+   margin: 0%;
+
+
+
+}
+
+.menu a{
+    display: block;
+    position: right;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+.menu a:link{
+    color: #1bbc37;
+}
+
+
+.menu a:visited{
+    color: #1bbc37;
+}
+
+
+.menu a:active{
+    background-color: #008000;
+}
+
+.menu a:hover{
+    background-color: #678ee9;
+}
+
+
